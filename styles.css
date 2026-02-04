@@ -1,4 +1,11 @@
 p {
   text-align: center;
-  color: red;
+  color: green;
+}
+#header {
+  color: aqua;
+}
+.about{
+  text-align:center; 
+  color:blue;  
 }
