@@ -1,11 +1,11 @@
 p {
   text-align: center;
-  color: green;
+  color: red;
 }
 #header {
-  color: aqua;
+  color: blue;
 }
 .about{
   text-align:center; 
-  color:blue;  
+  color:green;  
 }
