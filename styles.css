@@ -13,6 +13,9 @@ body{
   text-align:center; 
   color:green;  
 }
+.project{
+  background: violet;
+}
 .left{
   text-align: left;
   color: black;
