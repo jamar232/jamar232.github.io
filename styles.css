@@ -1,20 +1,20 @@
 p {
   text-align: center;
-  color: red;
+  color: darkgray;
 }
 body{
   background: rgb(153, 146, 132);
   font-family: Arial, Helvetica, sans-serif;
 }
 #header {
-  color: blue;
+  color: black;
 }
 .about{
   text-align:center; 
-  color:green;  
+  color:black;  
 }
 .project{
-  background: violet;
+  background: white;
 }
 .left{
   text-align: left;
