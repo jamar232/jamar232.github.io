@@ -1,25 +1,76 @@
-p {
-  text-align: center;
-  color: white;
+/* General Page Styling */
+body {
+    background: rgb(153, 146, 132);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
 }
-body{
-  background: rgb(153, 146, 132);
-  font-family: Arial, Helvetica, sans-serif;
-}
+
+/* Header */
 #header {
-  color: black;
+    text-align: center;
+    color: black;
+    margin-top: 20px;
 }
-.about{
-  text-align:center; 
-  color:black;  
+
+/* Contact */
+.contact {
+    text-align: center;
+    margin-bottom: 20px;
 }
-.project{
-  background: black;
+
+/* Sections */
+.about, .education, .skills, .experience, .projects {
+    background: white;
+    margin: 20px auto;
+    padding: 20px;
+    width: 80%;
+    border-radius: 8px;
 }
-.left{
-  text-align: center;
-  color: black;
+
+/* Section Titles */
+h2 {
+    text-align: center;
 }
-.attention{
-  font-weight: bold;
+
+/* Paragraphs */
+p {
+    color: black;
+}
+
+/* Skills List */
+.skills ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.skills li {
+    padding: 5px 0;
+    text-align: center;
+}
+
+/* Experience + Lists */
+ul {
+    padding-left: 20px;
+}
+
+/* Projects */
+.project {
+    background: #f5f5f5;
+    padding: 15px;
+    margin: 15px 0;
+    border-radius: 6px;
+}
+
+/* Images */
+img {
+    width: 100%;
+    max-width: 300px;
+    display: block;
+    margin: 10px auto;
+}
+
+/* Headings inside sections */
+h3 {
+    text-align: center;
 }
